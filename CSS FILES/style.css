@@ -37,6 +37,10 @@ nav{
     gap: 20px;
 }
 
+section nav .nav-right .container .dropdown .btn{
+    color: #ffffff;
+}
+
 section .text{
     color: rgb(255, 255, 255);
     position: relative;
