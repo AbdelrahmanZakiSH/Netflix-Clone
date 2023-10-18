@@ -1,0 +1,498 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+section{
+    background-image: url(../IMG/EG-en-20231009-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-left{
+    padding-left: 130px;
+}
+
+.nav-right{
+    padding-right: 130px;
+}
+
+.nav-right .container{
+    display: flex;
+    gap: 20px;
+}
+
+section .text{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 150px;
+}
+
+section .text h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+section .text .p1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+section .text .p2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+section .text input{
+    position: relative;
+    left: 390px;
+    padding: 15px;
+    height: 65px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    border-radius: 5px;
+}
+
+section .text button:hover{
+    background-color: #bd020c;
+    color: rgb(228, 228, 228);
+    transition: .5s;
+}
+
+section .text button{
+    position: relative;
+    top: 4px;
+    left: 390px;
+    padding: 10px;
+    width: 180px;
+    height: 65px;
+    border: none;
+    background-color: #e50914;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+.hr-1{
+    border: 4px solid rgb(121, 121, 121);
+    position: relative;
+    bottom: 15px;
+}
+
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 70vh;
+    padding: 180px;
+    position: relative;
+}
+
+.section-2 .text{
+    color: #ffff;
+}
+
+.section-2 .text h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.section-2 .text p{
+    font-size: 1.5rem;
+}
+
+.section-img{
+    position: relative;
+    bottom: 95px;
+    right: 80px;
+}
+
+.section-img img{
+    position: absolute;
+    top: -120px;
+    left: -400px;
+}
+
+
+.section-img video{
+    position: absolute;
+    top: -50px;
+    left: -330px;
+}
+
+.hr-2{
+    border: 4px solid rgb(121, 121, 121);
+    position: relative;
+    bottom: 15px;
+}
+
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-3 .video{
+    position: relative;
+    left: 170px;
+}
+
+.section-3 .video .video-img img{
+    width: 503px;
+    height: 377px;
+}
+
+.section-3 .video .frame{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 279px;
+    height: 104px;
+    position: relative;
+    bottom: 130px;
+    left: 110px;
+    background: rgb(0,0,0);
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+
+}
+
+.section-3 .video .frame-img{
+    position: relative;
+}
+
+.section-3 .video .frame-img img{
+    padding-left: 20px;
+    width: 80px;
+    height: 85px;
+}
+
+.section-3 .video .frame-text{
+    padding-left: 10px;
+    position: relative;
+}
+
+.section-3 .video .frame-text .st-text{
+    color: #ffff;
+}
+
+.section-3 .video .frame-text .d-text{
+    color:#0071eb;
+}
+
+.section-3 .video .frame-icon{
+    position: relative;
+    left: 15px;
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    content: '';
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.section-3 .text{
+    padding-right: 216px;
+    padding-bottom: 80px;
+    color: #ffff;
+}
+
+.section-3 .text h1{
+    font-weight: 800;
+    font-size: 3.4rem;
+}
+
+.section-3 .text p{
+    font-size: 1.5rem;
+    font-weight: 400px;
+}
+
+.hr-3{
+    border: 4px solid rgb(121, 121, 121);
+    position: relative;
+    bottom: 15px;
+}
+
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 .text{
+    color: #ffff;
+    padding-left: 170px;
+    padding-top: 150px;
+}
+
+.section-4 .text h1{
+    font-weight: 800;
+    font-size: 3.4rem;
+}
+
+.section-4 .text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.section-4 .video{
+    position: relative;
+}
+
+.section-4 .video .video-netflix{
+    position: absolute;
+    top: -95px;
+    right: 240px;
+}
+
+.section-4 .video .video-netflix video{
+    width: 317px;
+    height: 179px;
+}
+
+.section-4 .video .video-img{
+    position: absolute;
+    top: -120px;
+    right: 145px;
+}
+
+.section-4 .video .video-img img{
+    width: 503px;
+    height: 377px;
+}
+
+.hr-4{
+    border: 4px solid rgb(121, 121, 121);
+    position: relative;
+    top: 160px;
+}
+
+.section-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+.section-5 .image{
+    padding-left: 160px;
+}
+
+.section-5 .image img{
+    width: 503px;
+    height: 377px;
+}
+
+.section-5 .text{
+    color: #ffff;
+    padding-right: 150px;
+}
+
+.section-5 .text h1{
+    font-weight: 800;
+    font-size: 3.4rem;
+}
+
+.section-5 .text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hr-5{
+    border: 4px solid rgb(121, 121, 121);
+    position: relative;
+    top: 260px;
+}
+
+.section-6{
+    position: relative;
+    top: 300px;
+    text-align: start;
+}
+
+.section-6 .text{
+    color: #ffff;
+    position: relative;
+}
+
+.section-6 .text h1{
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.section-6 .container{
+    position: relative;
+    top: 30px;
+    color: #ffff;
+    width: 80%;
+}
+
+.section-6 .container .accordion .accordion-item .accordion-header .accordion-button{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: -10px;
+}
+
+.section-6 .container .accordion .accordion-item{
+        color: #fff;
+        background-color:#232323;
+        border: none;
+        border-radius: 0px;
+        margin-top: 10px;
+}
+
+.section-6 .container .accordion .accordion-item .accordion-collapse .accordion-body p{
+    background-color:#232323;
+    border: none;
+    border-radius: 0px;
+    font-size: 1.5rem;
+}
+
+.section-6 .container .accordion .accordion-item .accordion-button{
+    color: #ffff;
+    background-color: #292929;
+    border: none;
+    border-radius: 0px;
+    height: 90px;
+}
+
+.section-6 .reg{
+    position: relative;
+    top: 120px;
+    right: 30px;
+}
+
+.section-6 .reg input{
+    position: relative;
+    left: 390px;
+    padding: 15px;
+    height: 65px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    border-radius: 5px;
+}
+
+.section-6 .reg button:hover{
+    background-color: #bd020c;
+    color: rgb(228, 228, 228);
+    transition: .5s;
+}
+
+.section-6 .reg button{
+    position: relative;
+    top: 4px;
+    left: 390px;
+    padding: 10px;
+    width: 200px;
+    height: 65px;
+    border: none;
+    background-color: #e50914;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.section-6 .text{
+    text-align: center;
+}
+
+.section-6 .text p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.hr-6{
+    border: 4px solid rgb(121, 121, 121);
+    position: relative;
+    top: 450px;
+}
+
+footer{
+    position: relative;
+}
+
+footer .link{
+    position: absolute;
+    top: 500px;
+    left: 160px;
+
+}
+
+footer .link a {
+    color: #bdbdbd;
+}
+
+footer .links{
+    display: flex;
+    gap: 90px;
+    position: absolute;
+    top: 530px;
+    left: 130px;
+}
+
+footer .links ul li{
+    padding-top: 15px;
+}
+
+footer .links ul li a{
+    color: #bdbdbd;
+}
+
+footer .container{
+    position: absolute;
+    top: 720px;
+    left: 130px;
+}
+
+footer .container .dropdown .btn{
+    color: #ffffff;
+}
+
+footer p{
+    position: absolute;
+    top: 770px;
+    left: 155px;
+    color: #bdbdbd;
+}
+
+.hr-end{
+    border: 4px solid rgb(0, 0, 0);
+    position: relative;
+    top: 850px;
+}
